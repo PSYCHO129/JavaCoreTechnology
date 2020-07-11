@@ -15,6 +15,9 @@ import java.nio.charset.StandardCharsets;
  */
 public class RpcServer {
 
+    /**
+     *
+     */
     private static final String RPC_QUEUE_NAME = "rpc_queue";
 
     public static void main(String[] args) throws Exception {
