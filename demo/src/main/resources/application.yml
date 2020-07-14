@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: demo
+
+  datasource:
+    username: root
+    password: root
+    url: 'jdbc:mysql://localhost:3306/subway?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8'
+    driver-class-name: com.mysql.jdbc.Driver
